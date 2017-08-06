@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import EditorContainer from "./containers/EditorContainer";
+
 class App extends Component {
   render() {
-    return <div> Hello World </div>;
+    return <EditorContainer />;
   }
 }
 
