@@ -20,7 +20,7 @@ class EditorContainer extends Component {
         </div>
         <div className="editor-area">
           <Editor
-            rowCount="40"
+            rowCount="70"
             colCount="300"
             color={this.state.color}
             handleChange={this.handleTextUpdate}
