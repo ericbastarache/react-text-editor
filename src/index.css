@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.button-row {
+  width: 95%;
+  margin: 0 auto;
+}
