@@ -2,10 +2,18 @@ import React, { Component } from "react";
 import "./App.css";
 
 import EditorContainer from "./containers/EditorContainer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   render() {
-    return <EditorContainer />;
+    return (
+      <div>
+        <Header />
+        <EditorContainer />
+        <Footer />
+      </div>
+    );
   }
 }
 
