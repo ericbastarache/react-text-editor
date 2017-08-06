@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Header.css";
 
-const Header = props => {
-  return (
-    <h1 className="centered">
-      {props.headerText}
-    </h1>
-  );
-};
+class Header extends Component {
+  render() {
+    return (
+      <div>
+        <div />
+      </div>
+    );
+  }
+}
 
 export default Header;
